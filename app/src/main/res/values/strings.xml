@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Quick Delivery</string>
+    <string name="order_edit_title">Nouvelle Commande</string>
+    <string name="order_detail_title">Détail Commande</string>
+    <string name="payment_edit_title">Nouveau Payment</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_logout">Deconnexion</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+
+    <string name="hint_search">RECHERCHER</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Telephone</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="hint_numero">Numéro de référence</string>
+    <string name="hint_amount">Montant</string>
+    <string name="hint_fname">Nom</string>
+    <string name="hint_lname">Prénoms</string>
+    <string name="btn_login">CONNEXION</string>
+
+    <string name="err_msg_number">Entrer un numero</string>
+    <string name="err_msg_amount">Entrer le montant</string>
+
+    <string name="dialog_msg">Vous voulez vous déconnecter</string>
+    <string name="yes_text">OUI</string>
+    <string name="no_text">NON</string>
+
+    <string name="hint_montant">Montant</string>
+    <string name="hint_libelle">Libelle</string>
+    <string name="hint_modepaiement">Mode de paiement</string>
+    <string name="hint_lieu">Lieu</string>
+    <string name="hint_reference">Reference</string>
+    <string name="no_data_available">Pas de donnée</string>
+
+</resources>

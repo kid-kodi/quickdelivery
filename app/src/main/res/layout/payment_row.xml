@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/montant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="#444444"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="Seems gcm will take some time"/>
+
+    <TextView android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/montant"
+        android:textColor="#888888"
+        android:layout_marginTop="5dp"
+        android:text="Seems gcm will take some time"/>
+
+    <ImageView
+        android:id="@+id/status_pending"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/ic_done_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_circle_blue"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/status_done"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/ic_done_all_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_circle_green"
+        android:gravity="center"/>
+
+</RelativeLayout>
